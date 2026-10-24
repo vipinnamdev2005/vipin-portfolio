@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+header,
+footer {
+    background: rgb(29, 29, 105);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+a {
+    color: aliceblue;
+    padding: 5px;
+   
+
+}
+
+.nav {
+    display: flex;
+    gap: 17px;
+}
+
+.profile {
+    width: 250px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.detail {
+    width: 50%;
+}
+
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 100px;
+    background: rgb(38, 38, 133);
+    color: aliceblue;
+
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.ab1,
+.ab2 {
+    width: 40%;
+    height: 20%
+}
+
+.home>.detail,
+.ab2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ab2 {
+    background: rgb(226, 236, 249);
+    border-radius: 20px;
+    padding: 0px 40px;
+}
+
+.edDetail {
+
+    display: flex;
+    gap: 30px;
+    /* justify-content: center;  */
+    align-items: center;
+
+}
+
+.edDetail>p {
+    /* border: 2px solid black; */
+    background: rgb(206, 210, 243);
+    color: rgb(27, 24, 230);
+    /* padding: 2px 8px; */
+    width: 15%;
+    text-align: center;
+    border-radius: 5px;
+    ;
+
+}
+
+.edgucation {
+    background: rgb(226, 236, 249);
+}
+
+.ed {
+    margin-left: 40px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skD {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.skD p {
+
+    width: 19%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 0px;
+    background: rgb(206, 210, 243);
+    color: rgb(27, 24, 230);
+
+
+}
+
+.skill h2 , .contect h2 {
+    margin-left: 40px;
+}
+
+.contect a {
+    color: black;
+    border: none;
+}
+.contect{
+     background: rgb(226, 236, 249);
+}
+
+.coD {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+a:hover{
+    color: blue;
+    background: white;
+    border: none;
+    border-radius: 7px;
+}
+.contect a:hover{
+        background: transparent;
+
+}
